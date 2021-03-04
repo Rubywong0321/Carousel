@@ -1,0 +1,32 @@
+body{
+    background-color: #eee;
+}
+main{
+    margin: 0 auto;
+    
+}
+main>div:nth-of-type(1){
+    width: 95%;
+    max-width: 1024px;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+.pic{
+    width: 100%;
+    position: relative;
+}
+.pic div{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.8);
+    bottom: 1rem;
+    left: 1rem;
+    padding: 8px;
+    width: 95%; 
+}
+.pic div h2{
+    font-size: 1.2rem;
+}
+.pic div p{
+    font-size: 0.9rem;
+}
